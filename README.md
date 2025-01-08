@@ -10,7 +10,7 @@
 </div>
 
 
-The **Remote File Extension** for `FileSizeHandler` enables support for retrieving file sizes from HTTP/HTTPS URLs.
+The **Remote File Extension** for [FileSizeHandler](https://github.com/nassiry/filesize-handler) enables support for retrieving file sizes from HTTP/HTTPS URLs.
 
 ## Installation
 
@@ -34,7 +34,7 @@ echo $handler; // Output: "12.34 MiB"
 ```
 ### Features
 - Fetch file sizes from HTTP/HTTPS URLs.
-- Seamlessly integrates with the main `FileSizeHandler` library.
+- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
 
 ### Contributing
 Feel free to submit issues or pull requests to improve the package. Contributions are welcome!
