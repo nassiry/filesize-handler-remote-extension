@@ -12,6 +12,12 @@
 
 The **Remote File Extension** for [FileSizeHandler](https://github.com/nassiry/filesize-handler) enables support for retrieving file sizes from HTTP/HTTPS URLs.
 
+
+### Features
+- Fetch file sizes from HTTP/HTTPS URLs.
+- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
+
+
 ## Installation
 
 Install the extension via Composer:
@@ -28,16 +34,18 @@ $handler = FileSizeHandler::create()
     ->from(new RemoteFiles(
         'https://example.com/file.zip'  // URL to the remote file
     ))
-    ->formattedSize();
+    ->format();
 
 echo $handler; // Output: "12.34 MiB"
 ```
-### Features
-- Fetch file sizes from HTTP/HTTPS URLs.
-- Seamlessly integrates with the main [FileSizeHandler](https://github.com/nassiry/filesize-handler) library.
 
 ### Contributing
 Feel free to submit issues or pull requests to improve the package. Contributions are welcome!
+
+
+### Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release details.
 
 ### License
 This package is open-source software licensed under the [MIT license](LICENSE).
